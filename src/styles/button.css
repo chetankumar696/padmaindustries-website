@@ -1,0 +1,49 @@
+.btn-custom{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:14px 30px;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.btn-custom.primary{
+
+    background:#f0ad1d;
+
+    color:#111;
+
+}
+
+.btn-custom.primary:hover{
+
+    background:#d99600;
+
+    color:#111;
+
+}
+
+.btn-custom.secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+.btn-custom.secondary:hover{
+
+    background:white;
+
+    color:#111;
+
+}

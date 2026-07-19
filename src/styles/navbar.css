@@ -1,0 +1,105 @@
+.navbar-custom{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+z-index:1000;
+
+transition:.4s;
+
+padding:20px 0;
+
+background:transparent;
+
+}
+
+.navbar-custom.scrolled{
+
+background:#0B1F35;
+
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+
+padding:12px 0;
+
+}
+
+.navbar-wrapper{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+.brand{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+.brand img{
+
+height:60px;
+
+}
+
+.brand h4{
+
+margin:0;
+
+color:white;
+
+font-size:24px;
+
+}
+
+.brand span{
+
+color:#f0ad1d;
+
+font-size:13px;
+
+}
+
+.navbar-custom ul{
+
+display:flex;
+
+gap:35px;
+
+list-style:none;
+
+margin:0;
+
+padding:0;
+
+}
+
+.navbar-custom a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+.navbar-custom a:hover{
+
+color:#f0ad1d;
+
+}

@@ -1,0 +1,33 @@
+.manufacturing-section{
+    background:#0B1F35;
+    color:white;
+}
+
+.process-card{
+    background:white;
+    color:#212529;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    height:100%;
+    transition:.3s;
+}
+
+.process-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+.step-number{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#F39C12;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+    font-weight:bold;
+    margin:0 auto 20px;
+}

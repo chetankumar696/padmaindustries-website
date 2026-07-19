@@ -1,0 +1,20 @@
+.products-section{
+    background:var(--light);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.products-section h5{
+    color:#000;
+    letter-spacing:2px;
+}
+
+.products-section h2{
+    color:#000;
+    font-size:44px;
+    font-weight:700;
+}
+
+.products-section p{
+    color:#555;
+}
