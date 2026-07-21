@@ -1,5 +1,5 @@
-import ccs from "../assets/images/laboratory/ccs-testing.JPG";
-import chemical from "../assets/images/laboratory/chemical-analysis.JPG";
+import ccs from "../assets/images/laboratory/ccs-testing.jpg";
+import chemical from "../assets/images/laboratory/chemical-analysis.jpg";
 import equipment from "../assets/images/laboratory/lab-equipment.jpg";
 
 export const laboratoryTests = [
